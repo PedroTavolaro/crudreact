@@ -1,0 +1,52 @@
+.table {
+    font-size: 20px;
+}
+.tableContainer {
+    border: red 1px solid;
+    width: 20rem;
+}
+
+.table:nth-child(3){
+    width: 15%;
+}
+
+.table:nth-child(4){
+    width: 10%;
+    margin-left: 1rem;
+}
+
+.editIcon {
+    margin-left: 2rem;
+    text-align: center;
+}
+.containerMaster{
+    justify-content: center;
+    
+}
+.tableContainer{
+    width: 100%;
+    
+}
+@media screen and (max-width: 520px){
+
+    .tableContainer{
+        width: 100%;
+        border: red 1px solid;
+        
+    }
+    .table {
+        font-size: 14px;
+        
+    }
+    .table:nth-child(3){
+        width: 22%;
+    }
+    .table:nth-child(4){
+        width: 10%;
+    }
+    .table:nth-child(5){
+        width: 8%;
+    }
+
+  
+}

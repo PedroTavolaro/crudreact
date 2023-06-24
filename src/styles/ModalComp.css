@@ -1,0 +1,83 @@
+.master {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    margin-left: -1%;
+    align-items: center; 
+    margin-bottom: 1rem;
+}
+.email{
+    margin-bottom: 1rem;
+}
+
+.entrada {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%
+}
+.checkArea{
+  
+}
+
+.saida{
+    text-align: center;
+}
+
+.containerBonus{
+    display: flex;
+}
+
+button{
+    color: #3264fe;
+    background-color:#fff;
+    
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+#my-input{
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    width: 20%;
+}
+
+.decrement{
+    padding: 8px 8px 8px 8px;
+    border-radius: 50%;
+    color: #3264fe;
+    
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.increment{
+    padding: 5px 5px 5px 5px;
+    border-radius: 50%;
+    color: #3264fe;
+    
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.masterBonus {
+    display: grid;
+    margin-left: -1%;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    justify-content: space-between;  
+}
+
+.bonus {
+    text-align: center;
+}
+.containerBonus{
+    text-align: center;
+    justify-content: center;
+}
+
+
